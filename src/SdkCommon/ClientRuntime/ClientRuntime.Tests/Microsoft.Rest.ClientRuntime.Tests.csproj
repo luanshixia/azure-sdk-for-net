@@ -14,8 +14,8 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-    <!--<PackageReference Include="Microsoft.Rest.ClientRuntime" Version="[2.3.6,3.0)" />-->
-    <ProjectReference Include="..\..\ClientRuntime\Microsoft.Rest.ClientRuntime.csproj" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="[2.3.6,3.0)" />
+    <!--<ProjectReference Include="..\..\ClientRuntime\Microsoft.Rest.ClientRuntime.csproj" />-->
   </ItemGroup>
 <!--
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
